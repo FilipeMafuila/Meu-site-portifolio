@@ -85,13 +85,11 @@ main>div>#sec2>img{
     width: 350px;
     height: 350px;
     border-radius: 200px;
-    border:3px solid red;
+    box-shadow:5px 1px 14px 6px rgb(68, 60, 60) ;
     margin-top: 100px;
-    box-shadow:2px 1px 14px 6px red ;
     animation: carfoto2 2.8s infinite ease-in-out;
 }
-#sobr{
-}
+
 #sobr>#p1{
     color:red;
     text-align: center;
@@ -141,7 +139,6 @@ button:hover{
     padding: 10px;
     border-radius: 20px;
     transition: 0.9s;
-    box-shadow:2px 1px 14px 6px red ;
 }
 #tecs{
     background-color:rgb(11, 10, 14);
@@ -184,8 +181,6 @@ transition: 3s;
     height: 30px;
  }
  
- #projectos{
- }
 #projectos>h1{
     text-align: center;
     padding: 10px;
@@ -355,8 +350,6 @@ transition: 3s;
    }
 
    /* home*/
-main{
-}
    main>div{
     display: flex;
     flex-direction:column-reverse;
