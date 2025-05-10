@@ -174,7 +174,10 @@ button:hover{
 
 }
 #tec>#cards:hover{
-box-shadow:2px 1px 14px 6px red ;
+background-color: rgb(2, 45, 85);
+color: white;
+cursor: pointer;
+transition: 3s;
 }
 #tec>#cards>div>img{
     width: 30px;
