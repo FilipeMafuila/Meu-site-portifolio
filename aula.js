@@ -1,4 +1,4 @@
-ScrollReveal().reveal('#card', {
+ScrollReveal().reveal('#cards', {
     origin:'bottom',
     distance:'20px',
     duration:3000,
@@ -19,15 +19,23 @@ ScrollReveal().reveal('#sb', {
     delay :200,
     reset: false
 })
-ScrollReveal().reveal('#form', {
+
+ScrollReveal().reveal('input', {
     origin:'bottom',
     distance:'50px',
     duration:2000,
     delay :200,
     reset: false
 })
-ScrollReveal().reveal('input', {
+ScrollReveal().reveal('textarea', {
     origin:'bottom',
+    distance:'50px',
+    duration:2000,
+    delay :200,
+    reset: false
+})
+ScrollReveal().reveal('.cards', {
+    origin:'left',
     distance:'50px',
     duration:2000,
     delay :200,
