@@ -1,0 +1,462 @@
+  html{
+    scroll-behavior: smooth;
+ }
+ @keyframes carfoto1{
+    50%{
+        transform: translateX(-10%);
+    }
+}
+ @keyframes carfoto2{
+    50%{
+        transform: translateY(-10%);
+    }
+}
+ body{
+    background-color: rgb(226, 220, 212);
+    font-family: arial;
+    font-weight: bolder;
+    margin: 0px;
+    
+ }
+ 
+header{
+      width: 1300px;
+      z-index: 1000;
+      position: fixed;
+
+}
+#menu{
+display: none;
+}
+ nav{
+    padding: 0px;
+    margin-bottom: 70px;
+    background-color: rgb(48, 47, 47);
+    position: fixed;
+    width: 1400px;
+   gap: 150px;
+}
+nav>div{
+    margin-left: 300px;
+    padding:20px;
+}
+nav>div>a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+   margin: 14px;
+   align-items: center;
+   font-size: 13px;
+   font-weight: bolder;
+   padding: 5px;
+}nav>div>a:hover{
+    background-color:rgb(11, 10, 14);
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+main{
+padding: 50px;
+ background-color:rgb(11, 10, 14);
+ 
+ height: 550px;
+
+}
+main>div{
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+
+}
+main>div>#sec1>p{
+    margin-bottom: 30px;
+    color: white;
+    margin-top:-10px;
+    font-size: 35px;
+}
+main>div>#sec1>#pp{
+    margin-bottom: 30px;
+    color:rgb(148, 148, 148);
+    margin-top:-10px;
+    font-size: 25px;
+}
+main>div>#sec2>img{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    border:3px solid red;
+    margin-top: 100px;
+    box-shadow:2px 1px 14px 6px red ;
+    animation: carfoto2 2.8s infinite ease-in-out;
+}
+#sobr{
+}
+#sobr>#p1{
+    color:red;
+    text-align: center;
+}
+#sobr>#p2{
+    color:rgb(11, 10, 14);
+    text-align: center;
+}
+section>h1{
+    text-align: center;
+}
+section>div{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+section>div>#as1>img{
+    width: 320px;
+    height: 320px;
+    border-radius: 200px;
+    border:1px solid rgb(197, 197, 197);
+    box-shadow:5px 1px 14px 6px rgb(68, 60, 60) ;
+    animation: carfoto1 2.8s infinite ease-in-out;
+}
+section>div>#as2{
+width: 700px;
+}
+section>div>#as2>p{
+    text-align: justify;
+    font-size: 16px;
+
+}
+button{
+    font-size: 14px;
+    border: 2px solid red;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+button:hover{
+    font-size: 14px;
+    border: 2px solid white;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.9s;
+    box-shadow:2px 1px 14px 6px red ;
+}
+#tecs{
+    background-color:rgb(11, 10, 14);
+    padding: 20px;
+}
+#tec{
+     display: flex;
+    
+}
+#tecs>h1{
+    color: red;
+}
+#tecs>#p1{
+    color: white;
+    text-align: center;
+}
+#tecs>#p2{
+    color: red;
+    text-align: center;
+}
+#tec>#cards{
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    font-size: 12px;
+    text-align: justify;
+    margin: auto;
+    padding: 35px;
+    border-radius: 5px;
+
+}
+#tec>#cards:hover{
+box-shadow:2px 1px 14px 6px red ;
+}
+#tec>#cards>div>img{
+    width: 30px;
+    height: 30px;
+ }
+ 
+ #projectos{
+ }
+#projectos>h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+#projectos>#p1{
+    color:red;
+    text-align: center;
+}
+#projectos>#p2{
+   color:rgb(11, 10, 14);
+    text-align: center;
+}
+#projectos>#cards{
+    display: flex;
+}
+#projectos>#cards>#card{
+    background-color: rgb(32, 32, 32);
+    margin: auto;
+    border-radius: 3px;
+    height: 100%;
+    box-shadow:5px 1px 14px 6px rgb(68, 60, 60) ;
+}
+#projectos>#cards>#card>#carfoto{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 1;
+    transition:1.5s ease ;
+   }
+   #projectos>#cards>#card>#carfoto:hover{
+    width: 370px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transform: scale(16.5) ease;
+    transition: 0.8s;
+   }
+   #cardis{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+
+   }
+   #cardis>button{
+    width: 100px;
+    color:white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid red;
+   }
+   #cardis>button:hover{
+    width: 100px;
+    color:white;
+    background-color:red;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.9s;
+    box-shadow:2px 1px 14px 6px red ;
+   }
+   #ver{
+    text-align: center;
+    color:rgb(11, 10, 14);
+    text-decoration: none;
+   }
+   #ver:hover{
+    text-align: center;
+    color: red;
+   }
+   #contacto{
+    background-color:rgb(11, 10, 14);
+    padding: 20px;
+   }
+   #contactt{
+    text-align: center;
+    padding: 20px;
+    color: red;
+   }
+   #contacto>#p1{
+    color: white;
+    text-align: center;
+   }
+  #contacto>#p2{
+    color: red;
+    text-align: center;
+   }
+   #form{
+    align-items: center;
+    
+   }
+   input{
+    width: 235px;
+    height: 35px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color:rgb(80, 76, 76);
+    color: white;
+   }
+   textarea{
+     background-color:rgb(80, 76, 76);
+    color: white;
+   }
+   footer{
+    background-color: rgb(48, 47, 47);
+    width: 1347px;
+    height: 160px;
+    padding: 1px;
+   }
+   footer>div>p{
+    color: white;
+    text-align: center;
+   padding: px;
+   }
+   footer>#media>div>a>img{
+    width: 30px;
+    margin-right: 3px;
+   }
+   footer>#media>div{
+    margin-left: 30px;
+   }
+   footer>#media>div>p{
+   color: rgb(151, 150, 150);
+   font-size: 15px;
+   }
+
+
+
+
+
+
+   @media screen and (max-width:1100px){
+  /* Geral*/
+  #menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+   
+  }
+    nav{
+    display: none ;
+    padding:0px;
+    background-color: rgba(48, 47, 47, 0.836);
+   }
+   nav>div{
+    display: flex;
+    flex-direction: column;
+
+   }
+   nav>div>a{
+    margin-left: -280px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 0px;
+    padding: 0px;
+   }
+   nav>div>a:hover{
+    font-size: 12px;
+    background-color: rgb(48, 47, 47) ;
+    padding: 0px;
+    
+   }
+   button{
+   margin-left: 80px;
+   }
+
+   /* home*/
+main{
+}
+   main>div{
+    display: flex;
+    flex-direction:column-reverse;
+   }
+   main>div>#sec1>p{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+   line-height: 20px;
+   }
+   main>div>#sec1>#pp{
+    font-size: 20px;
+    text-align: center;
+   }
+   main>div>#sec2>img{
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+   }
+
+   /*Sobre*/
+   section>div{
+    display: flex;
+    flex-direction: column;
+   }
+   section>div>#as2{
+    width: 100%;
+    margin-top: 30px;
+   }
+   section>div>#as1>img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+   }
+   /*skill*/
+   #tec{
+    gap: 20px;
+   }
+   /* projectos*/
+   #projectos>#cards{
+    margin-left: -13px;
+    gap: 20px;
+   }
+   #projectos>#cards>#card{
+    width: 300px;
+   }
+   #projectos>#cards>#card>#carfoto{
+    width:300px;
+    height: 300px;
+   }
+   #projectos>#cards>#card>#carfoto:hover{
+    width: 300px;
+    height: 300px;
+   }
+   label{
+    font-size: 13px;
+   }
+
+   /*contacto*/
+   #form{
+    margin-left: 0px;
+   }
+
+/*footer*/
+footer{
+    width: 100%;
+}
+   footer>div>p{
+     text-align: center;  
+   }
+   footer>#media>div{
+    margin:5px;
+   }
+   footer>#media>div>p{
+    text-align: center;
+   
+}
+footer>#media>div>a>img{
+    width: 30px;
+    margin-right: 3px;
+   }
+   footer>#media>div{
+    margin-left: 0px;
+   }
+   footer>#media>div>a{
+    margin-left: 14px;
+   }
+   input{
+    background-color:rgb(80, 76, 76);
+    color: white;
+   }
+   textarea{
+    background-color:rgb(80, 76, 76);
+    color: white;
+   }
+
+   }
+
+   @media screen and (max-width:1279px){
+    header{
+        width: 100px;
+    }
+    nav{
+    width: 100%;
+    }
+   }
