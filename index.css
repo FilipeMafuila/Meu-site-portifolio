@@ -319,7 +319,8 @@ transition: 3s;
   #menu{
     width: 30px;
     height: 30px;
-    display: none;
+    display: block;
+    background-color: white;
    
   }
     nav{
