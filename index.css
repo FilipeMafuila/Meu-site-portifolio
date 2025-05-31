@@ -326,7 +326,7 @@ transition: 3s;
     nav{
     display: none ;
     padding:0px;
-    background-color: rgba(0, 0, 0, 0.836);
+    background-color: rgb(0, 0, 0);
    }
    nav>div{
     display: flex;
